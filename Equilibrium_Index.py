@@ -9,7 +9,6 @@ class Solution:
                 return i
             
             left_sum += nums[i]
-
         return -1
 nums = [1,7,3,6,5,6]
 obj = Solution()
