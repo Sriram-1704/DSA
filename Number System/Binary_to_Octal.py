@@ -14,11 +14,11 @@ def bin_to_oct_fast(binary: str) -> str:
         '100': '4', '101': '5', '110': '6', '111': '7'
     }
     
-    result = [5,3]
+    result = []
     for i in range(0, len(binary), 3):  
         result.append(lookup[binary[i:i+3]])
     
     # Remove leading zeros (but keep at least one digit)
     return ''.join(result).lstrip('0') or '0'  
-binary = '101011'
+binary = '010101'
 print(bin_to_oct_fast(binary))

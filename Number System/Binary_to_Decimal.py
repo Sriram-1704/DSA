@@ -6,4 +6,4 @@ class Solution:
         return decimal
 binary = "1011"
 obj = Solution()
-print(obj.binary_to_decimal(binary))
+print(obj.binary_to_decimal(binary)) 
