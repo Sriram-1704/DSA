@@ -2,7 +2,6 @@ class Solution:
     def repeat_elements(self, nums):
         freq = {}
         result = []
-
         for num in nums:
             freq[num] = freq.get(num, 0) + 1
         
