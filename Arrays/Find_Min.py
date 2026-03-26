@@ -10,3 +10,4 @@ class Solution:
 nums = [4,2,9,1,0]
 obj = Solution()
 print(obj.findMin(nums))
+
